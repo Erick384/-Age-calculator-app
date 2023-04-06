@@ -35,9 +35,19 @@ body {
   width: 7.5rem;
   height: 3rem;
 }
-.calcAge{
-    background-color: hsl(259, 100%, 65%);
-    cursor: pointer;
+.second {
+  display: flex;
+  align-items: center;
+}
+hr {
+  flex: 1;
+}
+.calcAge {
+  background-color: hsl(259, 100%, 65%);
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
 }
 .output {
   display: flex;
