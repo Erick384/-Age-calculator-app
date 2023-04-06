@@ -30,20 +30,21 @@
       <div class="top">
         <div class="input">
           <h4>Day</h4>
-          <input type="text" placeholder="DD" />
+          <input type="number" placeholder="DD" id="day" />
         </div>
         <div class="input">
           <h4>Month</h4>
-          <input type="text" placeholder="MM" />
+          <input type="number" placeholder="MM" id="month" />
         </div>
         <div class="input">
           <h4>Year</h4>
-          <input type="text" placeholder="YYYY" />
+          <input type="number" placeholder="YYYY" id="year" />
         </div>
       </div>
 
       <div class="second">
         <hr>
+        <button class="calcAge" onclick="calculateAge()">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="46"
@@ -56,6 +57,7 @@
             />
           </g>
         </svg>
+        </button>
       </div>
 
       <div class="ouput">

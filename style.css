@@ -35,6 +35,10 @@ body {
   width: 7.5rem;
   height: 3rem;
 }
+.calcAge{
+    background-color: hsl(259, 100%, 65%);
+    cursor: pointer;
+}
 .output {
   display: flex;
   flex-direction: column;
