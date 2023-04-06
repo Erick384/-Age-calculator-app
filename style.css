@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 86%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.5rem;
+  border-radius: 1rem 1rem 5rem 1rem;
+}
+.top {
+  display: flex;
+  gap: 1.5rem;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input input {
+  padding: 1rem;
+  border: 1px solid hsl(0, 1%, 44%);
+  width: 7.5rem;
+  height: 3rem;
+}
+.output {
+  display: flex;
+  flex-direction: column;
+}
+.output-txt {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  /* border: 1px solid red; */
+}
