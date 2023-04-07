@@ -32,8 +32,8 @@ body {
 .input input {
   padding: 1rem;
   border: 1px solid hsl(0, 1%, 44%);
-  width: 7.5rem;
-  height: 3rem;
+  width: 8vw;
+  height: 6vh;
 }
 .second {
   display: flex;
@@ -58,4 +58,18 @@ hr {
   align-items: center;
   gap: 3rem;
   /* border: 1px solid red; */
+}
+@media screen and (max-width: 600px) {
+  body{
+    height: 100%;
+  }
+  .container{
+    margin-top: 4rem;
+    height: 77vh;
+    width: 90%;
+  }
+  .input input{
+    height: fit-content;
+    width: 22vw;
+  }
 }
